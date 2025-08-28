@@ -2,7 +2,9 @@
 
 [![License](https://img.shields.io/github/license/yimingwang666/shhh)](https://github.com/yimingwang666/shhh/blob/main/LICENSE)  ![Issues](https://img.shields.io/github/issues/yimingwang666/shhh)  [![GitHub Forks](https://img.shields.io/github/forks/yimingwang666/shhh.svg?style=social)](https://github.com/yimingwang666/shhh/network/members)  [![GitHub Stars](https://img.shields.io/github/stars/yimingwang666/shhh.svg?style=social)](https://github.com/yimingwang666/shhh/stargazers)
 
-一个基于前端纯静态网页的中文敏感词检测工具。  
+一个基于前端纯静态网页的中文敏感词检测工具。
+
+名称“shhh”意为“嘘”。面对敏感词，我们最好的选择就是不要说话。
 
 ## ✨ 功能特点
 
