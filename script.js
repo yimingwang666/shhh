@@ -104,4 +104,13 @@ function checkText() {
     }
 }
 
+function clearText() {
+    document.getElementById("inputText").value = "";
+    document.getElementById("result").style.display = "none";
+    document.getElementById("highlightedText").innerHTML = "";
+    document.getElementById("wordList").innerHTML = "";
+    document.getElementById("status").textContent = "";
+}
+
+
 loadDictionaries();

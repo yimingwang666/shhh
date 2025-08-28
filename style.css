@@ -23,18 +23,42 @@ textarea {
     resize: vertical;
 }
 
-button {
-    padding: 10px 20px;
-    border: none;
-    background: #4cafef;
-    color: white;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.2s ease-in-out;
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
 }
-button:hover {
-    background: #2f9fd8;
+
+#checkBtn {
+  flex: 1;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#checkBtn:hover {
+  background-color: #d9363e;
+}
+
+#clearBtn {
+  flex: 0.5;
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#clearBtn:hover {
+  background-color: #e0e0e0;
 }
 
 .result {

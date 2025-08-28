@@ -10,7 +10,11 @@
 <body>
     <h1>Shhh...!</h1>
     <textarea id="inputText" placeholder="输入待检测文本..."></textarea><br>
-    <button onclick="checkText()">检测</button>
+    <div class="button-group">
+        <button id="checkBtn" onclick="checkText()">检测</button>
+        <button id="clearBtn" onclick="clearText()">清空</button>
+    </div>
+
 
     <p id="status" class="status"></p>
 
