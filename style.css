@@ -82,3 +82,27 @@ button:hover {
     display: inline-block;
     margin-right: 4px;
 }
+
+/* 手机屏幕优化 */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #status {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  li {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+}
