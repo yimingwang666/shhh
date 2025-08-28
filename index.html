@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Shhh...!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Shhh...!</h1>
+    <textarea id="inputText" placeholder="输入待检测文本..."></textarea><br>
+    <button onclick="checkText()">检测</button>
+
+    <p id="status" class="status"></p>
+
+    <div id="result" class="result" style="display:none;">
+        <h3>检测结果：</h3>
+        <p id="highlightedText"></p>
+        <ul id="wordList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
