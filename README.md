@@ -69,4 +69,6 @@ http://localhost:8000/index.html
 
 本项目中使用的敏感词库基于以下项目，在此表示感谢：
 
+[中国数字时代 - CDS专页：敏感词库](https://chinadigitaltimes.net/space/CDS专页：敏感词库)
+
 [![Repo](https://img.shields.io/badge/GitHub-Sensitive-lexicon?logo=github)](https://github.com/konsheng/Sensitive-lexicon)
